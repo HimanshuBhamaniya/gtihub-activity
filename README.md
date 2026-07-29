@@ -1,4 +1,4 @@
-# 📊 GitHub User Activity CLI
+ii# 📊 GitHub User Activity CLI
 
 A simple **Command Line Interface (CLI)** tool built in Python to fetch and display recent activity of any GitHub user.  
 This project is inspired by the [roadmap.sh GitHub User Activity project](https://roadmap.sh/projects/github-user-activity) and is designed to help beginners practice working with APIs, JSON data, and CLI applications.
@@ -27,5 +27,5 @@ The GitHub User Activity CLI lets you:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone <(https://github.com/HimanshuBhamaniya/gtihub-activity.git)>
 cd github-activity
