@@ -11,7 +11,7 @@ def fetch_activity(username):
         return
 
     events = response.json()
-    for event in events[:10]:  # show latest 10 events
+    for event in events[:10]:
         print(f"- {event['type']} at {event['created_at']} in {event['repo']['name']}")
 
 if __name__ == "__main__":
