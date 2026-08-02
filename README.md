@@ -29,3 +29,38 @@ The GitHub User Activity CLI lets you:
 ```bash
 git clone <(https://github.com/HimanshuBhamaniya/gtihub-activity.git)>
 cd github-activity
+```
+
+### 2. Create a virtual environment
+```bash
+python -m venv venv
+```
+#### Activate it:
+```bash
+source venv/Scripts/activate
+```
+
+### 3. Install dependencies
+```bash
+pip install requests
+```
+
+### 4. Run the script
+```bash
+python github_activity.py <username>
+```
+#### Example:
+```bash
+python github_activity.py octocat
+```
+# 🛠️ Usage Examples
+
+### Fetch activity
+```bash
+python github_activity.py HimanshuBhamaniya
+```
+#### Output:
+```code
+- PushEvent at 2026-07-28T10:00:00Z in HimanshuBhamaniya/github-activity
+- WatchEvent at 2026-07-27T15:30:00Z in HimanshuBhamaniya/another-repo
+```
